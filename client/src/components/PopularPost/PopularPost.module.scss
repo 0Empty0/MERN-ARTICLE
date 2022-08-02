@@ -1,0 +1,17 @@
+.wrapper {
+	color: #303030;
+	border-bottom: 1px solid #30303050;
+	padding-bottom: 10px;
+	& + & {
+		margin-top: 15px;
+	}
+}
+.title {
+	font-weight: 550;
+	font-size: 18px;
+	line-height: 125%;
+	letter-spacing: 0.05em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}

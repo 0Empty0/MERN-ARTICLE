@@ -1,0 +1,27 @@
+.title {
+	text-align: center;
+	font-weight: 550;
+	font-size: 50px;
+	line-height: 110%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #303030;
+	margin-bottom: 45px;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.wrapper {
+	width: 45%;
+	margin-bottom: 15px;
+	input {
+		width: 100%;
+	}
+}
+.button {
+	margin: 0 auto;
+	margin-top: 25px;
+}

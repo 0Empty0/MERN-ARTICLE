@@ -1,0 +1,27 @@
+.section {
+	padding: 60px 0;
+}
+.title {
+	font-weight: 550;
+	text-transform: uppercase;
+	color: #303030;
+	margin-bottom: 25px;
+}
+.inner {
+	display: flex;
+	gap: 50px;
+}
+.main {
+	flex: 1 1 75%;
+	width: 70%;
+}
+.aside {
+	flex: 1 1 25%;
+	width: 20%;
+}
+.mainWrapper {
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-template-columns: repeat(3, 31.33333333%);
+	gap: 25px;
+}

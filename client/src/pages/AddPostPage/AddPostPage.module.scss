@@ -1,0 +1,59 @@
+.title {
+	text-align: center;
+	font-weight: 550;
+	font-size: 50px;
+	line-height: 110%;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #303030;
+	margin-bottom: 45px;
+}
+.file {
+	padding: 25px;
+	color: transparent;
+	position: relative;
+	&::-webkit-file-upload-button {
+		visibility: hidden;
+		width: 0;
+	}
+	&::before {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: -webkit-fill-available;
+		text-align: center;
+		content: 'Choose File';
+		cursor: pointer;
+		background: #303030;
+		color: #fff;
+		padding: 26px 62px;
+		font-weight: 550;
+		font-family: 'Inter', sans-serif;
+	}
+}
+.img {
+	padding: 15px;
+	width: 100%;
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.wrapper {
+	width: 100%;
+	& + & {
+		margin-top: 25px;
+	}
+}
+.input {
+	width: 100%;
+}
+.textarea {
+	resize: none;
+	width: 100%;
+	height: 40vh;
+}
+.button {
+	margin-top: 25px;
+}

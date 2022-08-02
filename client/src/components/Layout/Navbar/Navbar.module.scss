@@ -1,0 +1,19 @@
+.navbar {
+	padding: 20px 0;
+}
+.item {
+	display: inline-block;
+	& + & {
+		margin-left: 30px;
+	}
+}
+.link {
+	text-transform: uppercase;
+	font-size: 15px;
+	line-height: 15px;
+	color: #404040;
+	transition: font-weight 0.1s;
+}
+.active {
+	font-weight: bold;
+}
